@@ -3,13 +3,18 @@
  Padding is included in the click area of an element, while margins aren’t.
  Margins collapse vertically, while padding doesn’t (we’ll discuss this more in the next section).
 */
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } /* universal css to remove default settings*/
 h1 {
     padding: 20px 0 20px 10px; /* Top  Right  Bottom  Left */
     border-bottom: 1px solid #5D6063; /* size style color */
 }
 p {
     padding: 20px 10px; /* vertical:horizontal */
+    margin-top: 25px;
     margin-bottom: 50px;
 }
 h1, p {
@@ -19,4 +24,18 @@ h1, p {
 em, strong {
     background-color: #B2D6FF;    /* Light blue */
     display: inline;
+}
+div {
+    color: #FFF;
+    background-color: #5995DA;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+    width: 200px; /*only for content box*/
+    box-sizing: border-box; /*forces the actual width of the box to be 200px*/
+  }
+body {
+    text-align: center;
 }

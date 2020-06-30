@@ -19,3 +19,28 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
+.warp {
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    /*position: relative; */
+    padding-top:150px;
+    margin: auto;
+    max-width: 500px;
+    max-height: 500px;
+    display: flex;
+    align-items: center;
+  }
+.wrap {
+    width: 500px;
+    height: 10vh;
+    position: fixed;
+    right: 0;
+    left: 0;
+    margin: auto;
+    margin-right: 650px;
+    max-width: 500px;
+    max-height: 500px;
+    display: flex;
+    align-items: center;
+}

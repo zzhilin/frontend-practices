@@ -56,4 +56,70 @@ html * {
 .banner-text p {
     color: white;
     margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner-text-header {
+    font-size: 1.5em;
+}
+
+.band-container {
+    width: 100vw;
+    height: 539px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 100px;
+}
+
+.band-container h2 {
+    color: black;
+    font-weight: 100px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2em;
+}
+
+.band-container p {
+    color: grey;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    font-size: 0.8em;
+}
+
+.band-container p.band-container-sub {
+    color: grey;
+}
+
+.band-container p.band-container-content {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.band-members {
+    margin-left: auto;
+    margin-right: auto;
+    width: 730px;
+    height: 100px;
+    overflow: hidden;
+    
+}
+
+.band-members ul {
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+}
+
+.band-members ul li {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+.band-members ul li img {
+
+    width: 60%;
+    height: auto;
 }
